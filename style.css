@@ -28,7 +28,7 @@
     }
     
     .box1:hover{
-        background-color: rgba(192, 53, 53, 1);
+        background-color: #c03535;
         color: #fff;
         
         }
@@ -58,17 +58,24 @@
         position: absolute; 
         top: -60px; 
         left: 120px; 
-        
-        
+              
     }
 
-    .box2>img{
+    .box1:hover img{
+        box-shadow: 0 0 0 6px #c03535;
+        border-radius: 50%;
+        border: 6px solid #fff;
+    }
+        .box2>img{
         position: absolute; 
         top: -60px; 
         left: 120px;
-        box-shadow: 0 0 0 4px #fff,
-        0 0 0 8px #29364d;
         border-radius: 50%;
+        }
+        .box2:hover img{
+            box-shadow: 0 0 0 6px #29364d;
+            border-radius: 50%;
+            border: 6px solid #fff;
         }
 
         
@@ -76,5 +83,11 @@
         position: absolute; 
         top: -60px; 
         left: 120px; 
+    }
+
+    .box3:hover img{
+        box-shadow: 0 0 0 6px #df7f37;
+        border-radius: 50%;
+        border: 6px solid #fff;
     }
     
